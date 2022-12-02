@@ -1,0 +1,1 @@
+WELCOME_MESSAGE='Bot in fase di creazione :)'

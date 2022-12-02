@@ -1,1 +1,2 @@
-vars/telegram_token.yaml
+var/telegram_token.yaml
+*__pycache__
