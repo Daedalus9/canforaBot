@@ -5,6 +5,7 @@ from module.telegram_module.request_admin import request_admin
 from module.telegram_module.addadmin import add_admin
 from module.telegram_module.getuser import getuser
 from module.telegram_module.requestuser import requestuser
+from module.telegram_module.adduser import adduser
 
 def cHandlers(updater):
     dispatcher=updater.dispatcher
@@ -14,3 +15,4 @@ def cHandlers(updater):
     dispatcher.add_handler(CommandHandler('addadmin', add_admin))
     dispatcher.add_handler(CommandHandler('getuser', getuser))
     dispatcher.add_handler(CommandHandler('requestuser', requestuser))
+    dispatcher.add_handler(CommandHandler('adduser', adduser))
