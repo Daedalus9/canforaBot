@@ -1,2 +1,3 @@
 var/telegram_token.yaml
+var/admin.yaml
 *__pycache__
