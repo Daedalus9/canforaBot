@@ -8,6 +8,7 @@ from module.telegram_module.requestuser import requestuser
 from module.telegram_module.adduser import adduser
 from module.telegram_module.bacheca import bacheca
 from module.telegram_module.addbacheca import addbacheca
+from module.telegram_module.cleanbacheca import cleanbacheca
 
 def cHandlers(updater):
     dispatcher=updater.dispatcher
@@ -20,3 +21,4 @@ def cHandlers(updater):
     dispatcher.add_handler(CommandHandler('adduser', adduser))
     dispatcher.add_handler(CommandHandler('bacheca', bacheca))
     dispatcher.add_handler(CommandHandler('addbacheca', addbacheca))
+    dispatcher.add_handler(CommandHandler('cleanbacheca', cleanbacheca))
