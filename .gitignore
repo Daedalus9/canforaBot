@@ -1,4 +1,5 @@
 var/telegram_token.yaml
 var/admin.yaml
 var/user.yaml
+var/bacheca
 *__pycache__

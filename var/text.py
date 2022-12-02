@@ -8,3 +8,4 @@ USER_ALREADY_IN_USER="L'utente è già nella lista degli user"
 ADD_USER_ADMIN_CONFIRM='Utente inserito con successo nella lista degli admin'
 ADD_USER_USER_CONFIRM='Utente inserito con successo nella lista degli user'
 EMPTY_LIST='Lista vuota'
+EMPTY_BACHECA='Bacheca vuota'
