@@ -2,4 +2,5 @@ var/telegram_token.yaml
 var/admin.yaml
 var/user.yaml
 var/bacheca
+var/waste_sorting.yaml
 *__pycache__
